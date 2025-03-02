@@ -152,11 +152,11 @@ The project utilizes the following key technologies and libraries:
 
 **Known Issues and Limitations**
 
-*   [**List any known bugs, incomplete features, or limitations of your application here.** For example:]
-    *   Basic error handling is implemented, but more robust error handling could be added.
-    *   Input validation on contact fields might be basic and could be improved.
-    *   The UI styling is basic and could be enhanced for better user experience.
-    *   [If you didn't implement all CRUD operations, mention which ones are implemented and which are not.]
+*   [**List any known bugs, incomplete features, or limitations of your application here.** ]
+    *   Basic error handling is implemented, and could be expanded for more production-ready scenarios.
+    *   Input validation on contact fields is present but could be enhanced for stricter data quality.
+    *   The UI styling is functional but could be further improved for enhanced user experience and visual appeal.
+    *   **Cross-Device Testing:** The application has primarily been tested in a single development environment and has not yet been thoroughly tested across different browsers, operating systems, or devices (desktops, laptops, tablets, mobile). Compatibility and responsiveness across various platforms may need further verification.
 
 **Submission Requirements Checklist**
 
