@@ -2,7 +2,9 @@
 # Google Contacts API Integration - Spring Boot Application
 
 **Author:** Math Lee L. Biacolo
+
 **Course:** IT342 - G3 - 2ndSem2425
+
 **Due Date:** March 5, 2025 10:30 AM
 
 ## Objective
