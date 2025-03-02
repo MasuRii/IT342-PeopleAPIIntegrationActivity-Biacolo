@@ -1,0 +1,97 @@
+body {
+    background-color: #f8f9fa; /* Light gray background, consistent with other pages */
+    /* Add background image */
+    background-image: url('/images/background-image.png'); /* Assuming your static resources are served from the root */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    /* Keep existing styles */
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px; /* Adjust container width as needed */
+}
+
+.alert-danger {
+    background-color: #f8d7da; /* Light red background for alert */
+    border-color: #f5c6cb;
+    color: #721c24; /* Dark red text for alert */
+    border-radius: 0.5rem; /* More rounded alert box */
+    padding: 2rem; /* Increased padding for better visual separation */
+    text-align: center; /* Center text within the alert */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* Add a subtle shadow */
+}
+
+.alert-heading {
+    color: #721c24; /* Ensure heading color matches alert text */
+    font-size: 2rem; /* Larger heading for emphasis */
+    font-weight: bold; /* Bold heading */
+    margin-bottom: 1.5rem; /* Increased margin below heading */
+}
+
+.alert-heading i {
+    margin-right: 0.5rem; /* Spacing between icon and heading text */
+}
+
+.mb-3 {
+    margin-bottom: 1.5rem !important; /* Increased margin for error message paragraph */
+    font-size: 1.1rem; /* Slightly larger error message text */
+}
+
+hr {
+    border-top-color: #f0b4b9; /* Lighter color for the hr line */
+    margin-top: 2rem; /* Increased margin above hr */
+    margin-bottom: 2rem; /* Increased margin below hr */
+}
+
+.btn-group {
+    display: flex; /* Use flexbox for button group */
+    justify-content: center; /* Center buttons horizontally */
+    gap: 1rem; /* Spacing between buttons */
+}
+
+.btn-outline-danger, .btn-outline-primary, .btn-outline-secondary {
+    border-radius: 0.3rem; /* Rounded button corners */
+    padding: 0.75rem 1.5rem; /* Adjust button padding */
+    font-weight: 500; /* Slightly bolder button text */
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease; /* Smooth transition for hover effects */
+}
+
+.btn-outline-danger {
+    color: #dc3545; /* Bootstrap danger color */
+    border-color: #dc3545;
+}
+
+.btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: white;
+    border-color: #dc3545;
+}
+
+.btn-outline-primary {
+    color: #007bff; /* Bootstrap primary color */
+    border-color: #007bff;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+.btn-outline-secondary {
+    color: #6c757d; /* Bootstrap secondary color */
+    border-color: #6c757d;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #6c757d;
+    color: white;
+    border-color: #6c757d;
+}

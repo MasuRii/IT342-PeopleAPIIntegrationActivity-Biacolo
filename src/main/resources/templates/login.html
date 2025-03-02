@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="/webjars/bootstrap/5.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/login-styles.css"> <!-- Link to external CSS -->
+</head>
+<body class="d-flex justify-content-center align-items-center">
+    <div class="login-card">
+        <h1 class="login-title">Google Contacts Login</h1>
+        <div class="d-grid gap-2">
+            <a th:href="@{/oauth2/authorization/google}" class="btn btn-google">
+                <img src="https://img.icons8.com/color/24/000000/google-logo.png" class="google-icon" alt="Google Logo">
+                Sign in with Google
+            </a>
+        </div>
+    </div>
+</body>
+</html>

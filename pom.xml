@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>3.4.3</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>biacolo.com.cit</groupId>
+	<artifactId>contactintegration</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>contactintegration</name>
+	<description>Contacts Integration activity for Spring Boot - IT342 - G1 - 2ndSem2425 - Due: March 6, 2025 11:59 PM. Google Contacts/People API Integration. Math Lee L. Biacolo.</description>
+	<url>https://github.com/your-github-username/contactintegration</url> <!-- Replace with your actual GitHub repository URL -->
+	<licenses>
+		<license/>
+	</licenses>
+	<developers>
+		<developer>
+			<name>Math Lee L. Biacolo</name>
+			<email>mathlee.biacolo@cit.edu</email> <!-- Add your email if you want to include it -->
+			<organization>CIT University</organization> <!-- Add your organization if applicable -->
+			<organizationUrl>https://www.cit.edu/</organizationUrl> <!-- Add your organization URL if applicable -->
+		</developer>
+	</developers>
+	<scm>
+		<connection>git@github.com:your-github-username/contactintegration.git</connection> <!-- Replace with your actual repository connection -->
+		<developerConnection>git@github.com:your-github-username/contactintegration.git</developerConnection> <!-- Replace with your actual developer connection -->
+		<url>https://github.com/your-github-username/contactintegration</url> <!-- Replace with your actual repository URL -->
+		<tag>HEAD</tag>
+	</scm>
+	<properties>
+		<java.version>17</java.version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-oauth2-client</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.thymeleaf.extras</groupId>
+			<artifactId>thymeleaf-extras-springsecurity6</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.google.apis</groupId>
+			<artifactId>google-api-services-people</artifactId>
+			<version>v1-rev537-1.25.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.google.http-client</groupId>
+			<artifactId>google-http-client-jackson2</artifactId>
+			<version>1.42.3</version>
+		</dependency>
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>bootstrap</artifactId>
+			<version>5.3.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>webjars-locator-core</artifactId>
+			<version>0.52</version>
+		</dependency>
+		<dependency>
+			<groupId>org.webjars.npm</groupId>
+			<artifactId>bootstrap-icons</artifactId>
+			<version>1.11.3</version>
+		</dependency>
+		<dependency>
+			<groupId>com.google.api-client</groupId>
+			<artifactId>google-api-client-gson</artifactId>
+			<version>2.2.0</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>

@@ -1,0 +1,94 @@
+body {
+    background-color: #f8f9fa; /* Light gray background, consistent with other pages */
+    /* Add background image */
+    background-image: url('/images/background-image.png'); /* Assuming your static resources are served from the root */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    /* Keep existing styles */
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container {
+    max-width: 700px; /* Consistent container width */
+}
+
+.card-header {
+    background-color: #ffc107; /* Bootstrap warning color for Edit, can be adjusted */
+    color: #212529; /* Dark text for warning header */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.25rem 0.25rem 0 0;
+    padding: 1rem 1.25rem;
+}
+
+.card-header h2 {
+    margin: 0;
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.form-label {
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.form-control {
+    border-radius: 0.2rem;
+    padding: 0.6rem 0.75rem;
+    border: 1px solid #ced4da;
+}
+
+.form-control:focus {
+    border-color: #ffc107; /* Warning color on focus to match header */
+    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.25); /* Focus shadow with warning color */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Primary blue for Update button */
+    border-color: #007bff;
+    border-radius: 0.25rem;
+    padding: 0.75rem 1.25rem;
+    font-weight: 500;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-secondary {
+    background-color: #6c757d; /* Secondary gray for Cancel button */
+    border-color: #6c757d;
+    border-radius: 0.25rem;
+    padding: 0.75rem 1.25rem;
+    font-weight: 500;
+    margin-left: 0.5rem;
+}
+
+.btn-secondary:hover {
+    background-color: #545b62;
+    border-color: #4e555b;
+}
+
+.alert-danger {
+    border-radius: 0.25rem;
+    margin-top: 1rem; /* Spacing above error alert in header */
+    margin-bottom: 1.5rem; /* Spacing below error alert in card body */
+    padding: 0.75rem 1.25rem;
+}
+
+.mb-3 {
+    margin-bottom: 1.5rem !important;
+}

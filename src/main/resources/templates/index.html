@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Contact Manager</title>
+    <link rel="stylesheet" href="/css/styles.css">  <!-- Link to external CSS -->
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Google Contacts Manager</h1>
+        <div th:if="${#authentication.authenticated}">
+            <a th:href="@{/contacts}" class="manage-link">Manage Contacts</a>
+        </div>
+    </div>
+</body>
+</html>
