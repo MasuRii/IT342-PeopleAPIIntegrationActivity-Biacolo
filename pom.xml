@@ -12,23 +12,23 @@
 	<artifactId>contactintegration</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>contactintegration</name>
-	<description>Contacts Integration activity for Spring Boot - IT342 - G1 - 2ndSem2425 - Due: March 6, 2025 11:59 PM. Google Contacts/People API Integration. Math Lee L. Biacolo.</description>
-	<url>https://github.com/your-github-username/contactintegration</url> <!-- Replace with your actual GitHub repository URL -->
+	<description>Contacts Integration activity for Spring Boot - IT342 - G3 - 2ndSem2425 - Due: March 5, 2025 10:30 AM. Google Contacts/People API Integration. Author: Math Lee L. Biacolo. See README.md for detailed instructions and submission requirements.</description>
+	<url>https://github.com/MasuRii/IT342-PeopleAPIIntegrationActivity-Biacolo</url>
 	<licenses>
 		<license/>
 	</licenses>
 	<developers>
 		<developer>
 			<name>Math Lee L. Biacolo</name>
-			<email>mathlee.biacolo@cit.edu</email> <!-- Add your email if you want to include it -->
-			<organization>CIT University</organization> <!-- Add your organization if applicable -->
-			<organizationUrl>https://www.cit.edu/</organizationUrl> <!-- Add your organization URL if applicable -->
+			<email>mathlee.biacolo@cit.edu</email>
+			<organization>CIT University</organization>
+			<organizationUrl>https://www.cit.edu/</organizationUrl>
 		</developer>
 	</developers>
 	<scm>
-		<connection>git@github.com:your-github-username/contactintegration.git</connection> <!-- Replace with your actual repository connection -->
-		<developerConnection>git@github.com:your-github-username/contactintegration.git</developerConnection> <!-- Replace with your actual developer connection -->
-		<url>https://github.com/your-github-username/contactintegration</url> <!-- Replace with your actual repository URL -->
+		<connection>git@github.com:MasuRii/IT342-PeopleAPIIntegrationActivity-Biacolo.git</connection>
+		<developerConnection>git@github.com:MasuRii/IT342-PeopleAPIIntegrationActivity-Biacolo.git</developerConnection>
+		<url>https://github.com/MasuRii/IT342-PeopleAPIIntegrationActivity-Biacolo</url>
 		<tag>HEAD</tag>
 	</scm>
 	<properties>
