@@ -151,12 +151,10 @@ The project utilizes the following key technologies and libraries:
 *   **Webjars (Bootstrap, Bootstrap Icons):** For frontend styling and icons.
 
 **Known Issues and Limitations**
-
-*   [**List any known bugs, incomplete features, or limitations of your application here.** ]
-    *   Basic error handling is implemented, and could be expanded for more production-ready scenarios.
-    *   Input validation on contact fields is present but could be enhanced for stricter data quality.
-    *   The UI styling is functional but could be further improved for enhanced user experience and visual appeal.
-    *   **Cross-Device Testing:** The application has primarily been tested in a single development environment and has not yet been thoroughly tested across different browsers, operating systems, or devices (desktops, laptops, tablets, mobile). Compatibility and responsiveness across various platforms may need further verification.
+*   Basic error handling is implemented, and could be expanded for more production-ready scenarios.
+*   Input validation on contact fields is present but could be enhanced for stricter data quality.
+*   The UI styling is functional but could be further improved for enhanced user experience and visual appeal.
+*   **Cross-Device Testing:** The application has primarily been tested in a single development environment and has not yet been thoroughly tested across different browsers, operating systems, or devices (desktops, laptops, tablets, mobile). Compatibility and responsiveness across various platforms may need further verification.
 
 **Submission Requirements Checklist**
 
@@ -164,6 +162,7 @@ Please ensure you have completed all the following submission requirements:
 
 *   [x] **Source code hosted on GitHub:**  The complete source code of your project is pushed to a public (or accessible to the instructor) GitHub repository.
     *   **GitHub Repository URL:** [https://github.com/MasuRii/IT342-PeopleAPIIntegrationActivity-Biacolo](https://github.com/MasuRii/IT342-PeopleAPIIntegrationActivity-Biacolo)
-*   [ ] **Short Report:** A short report explaining the implementation steps and challenges encountered is submitted separately (or linked in this README - see below).
-    *   **Link to Report (if applicable):** [**If you are linking your report in the README, add the link here.**]
-*   [ ] **Screenshots or Video Demo:** Screenshots or a short video demo showcasing the working application are provided (either in the report or as separate files).
+*   [x] **Short Report:** A short report explaining the implementation steps and challenges encountered is submitted separately (or linked in this README - see below).
+    *   **Link to Report (if applicable):** [PDF Document - Google Drive](https://drive.google.com/file/d/1qcUUFyyGfjC4xWF-S_SoL1MycJRIvViI/view?usp=sharing)
+*   [x] **Screenshots or Video Demo:** Screenshots or a short video demo showcasing the working application are provided (either in the report or as separate files).
+    *   **Link to Video Demo (if applicable):** [Demo Video - Google Drive](https://drive.google.com/file/d/1O_u_mFnRCgz-UgWqc2e-KtDm_00x3SQw/view?usp=sharing)
