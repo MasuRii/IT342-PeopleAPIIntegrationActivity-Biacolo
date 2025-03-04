@@ -1,4 +1,4 @@
-package biacolo.com.cit.contactintegration;
+package biacolo.com.cit.contactintegration.Controller;
 
 import com.google.api.client.googleapis.javanet.GoogleNetHttpTransport;
 import com.google.api.client.googleapis.json.GoogleJsonResponseException;

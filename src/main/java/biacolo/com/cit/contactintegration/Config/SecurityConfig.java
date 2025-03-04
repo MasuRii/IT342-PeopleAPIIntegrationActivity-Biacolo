@@ -1,4 +1,4 @@
-package biacolo.com.cit.contactintegration;
+package biacolo.com.cit.contactintegration.Config;
 
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
