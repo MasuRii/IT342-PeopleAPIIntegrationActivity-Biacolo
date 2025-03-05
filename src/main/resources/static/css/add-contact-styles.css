@@ -1,87 +1,87 @@
 body {
-    background-color: #f8f9fa; /* Light gray background, consistent with display-contacts */
-    /* Add background image */
-    background-image: url('/images/background-image.png'); /* Assuming your static resources are served from the root */
-    background-size: cover; /* Cover the entire viewport */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Prevent image repetition */
-    /* Keep existing styles */
+    background-color: #f8f9fa;
+   
+    background-image: url('/images/background-image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
     font-family: sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    padding-top: 20px; /* Add some padding at the top for better spacing on full viewport */
-    padding-bottom: 20px; /* Add some padding at the bottom */
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .container {
-    max-width: 700px; /* Limit container width for better readability */
+    max-width: 700px;
 }
 
 .card-header {
-    background-color: #007bff; /* Primary blue, consistent with header in display-contacts */
+    background-color: #007bff;
     color: white;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 0.25rem 0.25rem 0 0; /* Rounded top corners */
-    padding: 1rem 1.25rem; /* Adjust padding for header */
+    border-radius: 0.25rem 0.25rem 0 0;
+    padding: 1rem 1.25rem;
 }
 
 .card-header h2 {
     margin: 0;
-    font-size: 1.75rem; /* Slightly larger heading */
-    font-weight: 500; /* Medium font weight */
+    font-size: 1.75rem;
+    font-weight: 500;
 }
 
 .card-body {
-    padding: 1.5rem; /* Increased padding for card body */
+    padding: 1.5rem;
 }
 
 .form-label {
-    font-weight: 500; /* Slightly bolder labels */
-    margin-bottom: 0.5rem; /* Add spacing below labels */
-    display: block; /* Ensure labels are block-level for consistent spacing */
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    display: block;
 }
 
 .form-control {
-    border-radius: 0.2rem; /* Slightly less rounded input fields */
-    padding: 0.6rem 0.75rem; /* Adjust input padding */
-    border: 1px solid #ced4da; /* Default border color */
+    border-radius: 0.2rem;
+    padding: 0.6rem 0.75rem;
+    border: 1px solid #ced4da;
 }
 
 .form-control:focus {
-    border-color: #007bff; /* Primary blue on focus */
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Subtle focus shadow */
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
 .btn-primary {
-    background-color: #007bff; /* Primary blue for Save button */
+    background-color: #007bff;
     border-color: #007bff;
     border-radius: 0.25rem;
-    padding: 0.75rem 1.25rem; /* Adjust button padding */
+    padding: 0.75rem 1.25rem;
     font-weight: 500;
 }
 
 .btn-primary:hover {
-    background-color: #0056b3; /* Darker shade on hover */
+    background-color: #0056b3;
     border-color: #0056b3;
 }
 
 .btn-secondary {
-    background-color: #6c757d; /* Bootstrap secondary color for Cancel button */
+    background-color: #6c757d;
     border-color: #6c757d;
     border-radius: 0.25rem;
-    padding: 0.75rem 1.25rem; /* Adjust button padding */
+    padding: 0.75rem 1.25rem;
     font-weight: 500;
-    margin-left: 0.5rem; /* Add spacing between buttons */
+    margin-left: 0.5rem;
 }
 
 .btn-secondary:hover {
-    background-color: #545b62; /* Darker shade on hover */
+    background-color: #545b62;
     border-color: #4e555b;
 }
 
 .mb-3 {
-    margin-bottom: 1.5rem !important; /* Increased margin bottom for form groups */
+    margin-bottom: 1.5rem !important;
 }

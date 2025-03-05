@@ -1,11 +1,11 @@
 body {
-    background: linear-gradient(to bottom, #f0f2f5, #ffffff); /* Chrome-like gradient */
-    /* Add background image */
-    background-image: url('/images/background-image.png'); /* Assuming your static resources are served from the root */
-    background-size: cover; /* Cover the entire viewport */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Prevent image repetition */
-    /* Keep existing styles */
+    background: linear-gradient(to bottom, #f0f2f5, #ffffff);
+   
+    background-image: url('/images/background-image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,12 +14,12 @@ body {
 }
 
 .login-card {
-    width: 400px; /* Adjust width as needed */
+    width: 400px;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
     background-color: white;
-    text-align: center; /* Center content inside the card */
+    text-align: center;
 }
 
 .login-title {
@@ -30,23 +30,23 @@ body {
 .google-icon {
     height: 20px;
     margin-right: 10px;
-    vertical-align: middle; /* Align icon with text */
+    vertical-align: middle;
 }
 
 .btn-google {
-    background-color: #ffffff; /* White background for Google button */
-    color: #333; /* Dark text for Google button */
-    border: 1px solid #ddd; /* Light gray border */
+    background-color: #ffffff;
+    color: #333;
+    border: 1px solid #ddd;
     transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
 }
 
 .btn-google:hover {
-    background-color: #f8f9fa; /* Slightly darker background on hover */
-    border-color: #ccc; /* Slightly darker border on hover */
-    color: #000; /* Darker text on hover */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
+    background-color: #f8f9fa;
+    border-color: #ccc;
+    color: #000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .btn-google img {
-    filter: grayscale(0%); /* Ensure icon is not grayscale */
+    filter: grayscale(0%);
 }

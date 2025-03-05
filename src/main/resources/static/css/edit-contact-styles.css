@@ -1,11 +1,11 @@
 body {
-    background-color: #f8f9fa; /* Light gray background, consistent with other pages */
-    /* Add background image */
-    background-image: url('/images/background-image.png'); /* Assuming your static resources are served from the root */
-    background-size: cover; /* Cover the entire viewport */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Prevent image repetition */
-    /* Keep existing styles */
+    background-color: #f8f9fa;
+   
+    background-image: url('/images/background-image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
     font-family: sans-serif;
     display: flex;
     justify-content: center;
@@ -17,12 +17,12 @@ body {
 }
 
 .container {
-    max-width: 700px; /* Consistent container width */
+    max-width: 700px;
 }
 
 .card-header {
-    background-color: #ffc107; /* Bootstrap warning color for Edit, can be adjusted */
-    color: #212529; /* Dark text for warning header */
+    background-color: #ffc107;
+    color: #212529;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.25rem 0.25rem 0 0;
     padding: 1rem 1.25rem;
@@ -51,12 +51,12 @@ body {
 }
 
 .form-control:focus {
-    border-color: #ffc107; /* Warning color on focus to match header */
-    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.25); /* Focus shadow with warning color */
+    border-color: #ffc107;
+    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.25);
 }
 
 .btn-primary {
-    background-color: #007bff; /* Primary blue for Update button */
+    background-color: #007bff;
     border-color: #007bff;
     border-radius: 0.25rem;
     padding: 0.75rem 1.25rem;
@@ -69,7 +69,7 @@ body {
 }
 
 .btn-secondary {
-    background-color: #6c757d; /* Secondary gray for Cancel button */
+    background-color: #6c757d;
     border-color: #6c757d;
     border-radius: 0.25rem;
     padding: 0.75rem 1.25rem;
@@ -84,8 +84,8 @@ body {
 
 .alert-danger {
     border-radius: 0.25rem;
-    margin-top: 1rem; /* Spacing above error alert in header */
-    margin-bottom: 1.5rem; /* Spacing below error alert in card body */
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
     padding: 0.75rem 1.25rem;
 }
 

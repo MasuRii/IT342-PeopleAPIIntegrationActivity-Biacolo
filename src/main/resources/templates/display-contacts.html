@@ -9,8 +9,11 @@
 <div class="container mt-4">
     <div class="card shadow">
         <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
-            <h2 th:text="'Welcome, ' + ${userName} + '!'"></h2>
-            <div class="header-actions"> <!-- Group for action buttons -->
+            <div class="d-flex align-items-center">
+                <img th:if="${profilePictureUrl}" th:src="${profilePictureUrl}" alt="Profile Picture" class="profile-picture"/>
+                <h2 class="mb-0" th:text="'Welcome, ' + ${userName} + '!'"></h2>
+            </div>
+            <div class="header-actions">
                 <a href="/contacts/add" class="btn btn-success me-2">
                     <i class="bi bi-plus-lg"></i> Add Contact
                 </a>
@@ -74,11 +77,9 @@
                                     </span>
                                 </td>
                                 <td class="text-center action-links action-buttons">
-                                    <!-- EDIT LINK -->
                                     <a th:href="@{'/contacts/edit/' + ${contact.resourceName}}">
                                         <i class="bi bi-pencil"></i> Edit
                                     </a>
-                                    <!-- DELETE FORM -->
                                     <form th:action="@{/contacts/people/{id}(id=${contact.resourceName.substring(7)})}" method="post">
                                         <input type="hidden" name="_method" value="DELETE"/>
                                         <button type="submit" class="btn-danger">Delete</button>

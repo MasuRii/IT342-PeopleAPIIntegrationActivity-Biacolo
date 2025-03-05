@@ -7,29 +7,37 @@ body {
 }
 
 .container {
-    max-width: 1200px; /* Limit container width for larger screens */
+    max-width: 1200px;
+}
+
+.profile-picture {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
 }
 
 .card-header {
-    background-color: #007bff; /* Bootstrap primary color, but can be adjusted */
+    background-color: #007bff;
     color: white;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Lighter border for header */
-    display: flex; /* Enable flexbox for header */
-    justify-content: space-between; /* Space out header elements */
-    align-items: center; /* Vertically align header elements */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .card-header h2 {
-    margin: 0; /* Remove default margin for heading in header */
-    font-size: 1.5rem; /* Adjust heading size if needed */
+    margin: 0;
+    font-size: 1.5rem;
 }
 
 .btn-success, .btn-light, .btn-danger {
-    border-radius: 5px; /* Slightly rounded buttons */
+    border-radius: 5px;
 }
 
 .btn-light {
-    background-color: #e0e0e0; /* Lighter background for logout button */
+    background-color: #e0e0e0;
     color: #333;
     border-color: #d0d0d0;
 }
@@ -41,52 +49,52 @@ body {
 
 .alert-danger, .alert-warning {
     border-radius: 5px;
-    margin-top: 20px; /* Add some space above alerts */
+    margin-top: 20px;
 }
 
 .table-dark {
-    background-color: #343a40; /* Dark background for table header, can be adjusted */
+    background-color: #343a40;
 }
 
 .table-hover tbody tr:hover {
-    background-color: rgba(0, 0, 0, 0.075); /* Lighter hover effect on table rows */
+    background-color: rgba(0, 0, 0, 0.075);
 }
 
 .table td, .table th {
-    vertical-align: middle; /* Vertically center content in table cells */
+    vertical-align: middle;
 }
 
 .action-links a, .action-buttons button {
-    margin-right: 0.5rem; /* Spacing between action buttons/links */
-    text-decoration: none; /* Remove underline from action links */
+    margin-right: 0.5rem;
+    text-decoration: none;
 }
 
 .action-buttons button {
-    padding: 0.375rem 0.75rem; /* Match button padding to Bootstrap defaults */
+    padding: 0.375rem 0.75rem;
     font-size: 1rem;
     line-height: 1.5;
     border-radius: 0.25rem;
-    border: 1px solid #dc3545; /* Match danger button border */
-    background-color: #dc3545; /* Match danger button background */
-    color: white; /* White text for delete button */
-    cursor: pointer; /* Indicate button is clickable */
+    border: 1px solid #dc3545;
+    background-color: #dc3545;
+    color: white;
+    cursor: pointer;
 }
 
 .action-buttons button:hover {
-    background-color: #c82333; /* Darker shade on hover */
+    background-color: #c82333;
     border-color: #bd2130;
 }
 
 .action-buttons form {
-    display: inline; /* Ensure form is inline with edit link */
-    margin-bottom: 0; /* Remove default bottom margin from form */
+    display: inline;
+    margin-bottom: 0;
 }
 
 .action-links a {
-    color: #007bff; /* Primary color for edit link */
+    color: #007bff;
 }
 
 .action-links a:hover {
-    color: #0056b3; /* Darker shade on hover */
-    text-decoration: underline; /* Add underline on hover for edit link */
+    color: #0056b3;
+    text-decoration: underline;
 }

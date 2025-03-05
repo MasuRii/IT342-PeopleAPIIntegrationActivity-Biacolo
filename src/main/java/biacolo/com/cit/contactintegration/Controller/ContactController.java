@@ -90,6 +90,7 @@ public class ContactController {
 
             model.addAttribute("contacts", contacts != null ? contacts : Collections.emptyList()); // Add contacts to the model.
             model.addAttribute("userName", oauth2User.getAttribute("name")); // Add user's name to the model.
+            model.addAttribute("profilePictureUrl", oauth2User.getAttribute("picture")); // Add user's profile picture URL to the model.
             return "display-contacts"; // Return the view name to display contacts.
 
         } catch (GeneralSecurityException | IOException e) {
